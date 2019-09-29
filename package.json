@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --inline --mode development"
+    "start": "webpack-dev-server --inline --mode development",
+    "svgr:build": "svgr ./svgs --ext tsx --out-dir ./javascript/components/ui/icons"
   },
   "dependencies": {
     "polished": "^3.4.1",
